@@ -1,0 +1,7 @@
+INSERT INTO ratownicy(nrKaretki, ratownik1, ratownik2, ratownik3) VALUES (20, "Adam Nowak", "Jan Kowalski", "Anna Nowakowska");
+
+SELECT zgloszenia.id, zgloszenia.adres, zgloszenia.ratownicy_id FROM zgloszenia WHERE zgloszenia.dyspozytorzy_id = 4;
+
+nie dziala
+
+nie dziala
